@@ -12,7 +12,7 @@ local notifications = notificationLibrary.new({
 });
 
 notifications:BuildNotificationUI();
-notifications:Notify("Discord Invite Copied To Clipboard: discord.gg/WAgwume3kB");
+notifications:Notify("Discord Invite Copied To Clipboard: discord.gg/WAgwume3kB\nkey in discord");
 setclipboard("https://discord.gg/WAgwume3kB")
 task.wait(1)
 -- Key System UI with Fade In/Out + Logo in bottom-left of the UI
